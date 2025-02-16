@@ -1,8 +1,14 @@
 {
   "name": "namespaced-map",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A map with namespaced keys that can map to the same value",
-  "keywords": ["typescript", "generic", "namespace", "map", "many to one"],
+  "keywords": [
+    "typescript",
+    "generic",
+    "namespace",
+    "map",
+    "many to one"
+  ],
   "author": "leumasic",
   "license": "MIT",
   "repository": {
@@ -19,7 +25,12 @@
       "import": "./dist/mjs/wrapper.mjs"
     }
   },
-  "files": ["package.json", "README.md", "LICENSE", "dist/"],
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "test": "vitest run --passWithNoTests",
