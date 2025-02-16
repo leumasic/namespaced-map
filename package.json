@@ -1,6 +1,6 @@
 {
   "name": "namespaced-map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A map with namespaced keys that can map to the same value",
   "keywords": [
     "typescript",
